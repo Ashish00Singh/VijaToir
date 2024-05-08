@@ -35,7 +35,7 @@ function Navbar() {
 //     </div>
 //   </div>
 // </nav>
-<p style={{textAlign:'center'}}>	&#169; Ashish Singh | Email: ashish7232singh@gmail</p>
+<p style={{textAlign:'center'}}>&#169; Ashish Singh | Email: ashish7232singh@gmail.com</p>
     )
 }
 
