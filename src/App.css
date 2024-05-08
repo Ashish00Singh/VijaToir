@@ -1,0 +1,158 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0rem;
+  background-color: aqua;
+}
+
+.icon {
+  width: 3vw;
+}
+.nav-item .nav-link {
+  font-size: 1.5vw;
+  color: black;
+}
+
+.homeImg {
+  width: 100%;
+  opacity: 0.8;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.368);
+  box-shadow: 0 0 1vw rgb(255, 255, 255);
+}
+
+.homeIng {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.input-group {
+  width: 80%;
+}
+
+.form-sec {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 15vw;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.382);
+  padding: 1%;
+}
+
+.form-select {
+  font-size: 1.5vw;
+}
+
+.btn-serch {
+  width: 10vw;
+  font-size: 1.5vw;
+  border-radius: 100px;
+}
+
+.text-Home {
+  font-size: 1.5vw;
+  padding: .5%;
+}
+
+/* ----------------- Feature -------------------------------- */
+.fea-cont {
+  /* background-image: url(https://media.licdn.com/dms/image/C4E16AQH9qNRolCx6QQ/profile-displaybackgroundimage-shrink_200_800/0/1517367959001?e=2147483647&v=beta&t=ZTvBAvQOnY6Vk1bF9aPoKVjy44mb5ec2lxE091U5r3g); */
+  padding: 1%;
+  /* background-color: burlywood; */
+  /* height: 250px; */
+}
+
+.feature {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.fea-contain {
+  width: 9vw;
+  background-color: rgb(234, 191, 191);
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+  margin-top: 10px
+}
+
+.fea-icon {
+  width: 5vw;
+}
+
+.icon-name {
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+/* ----------------------- Place ---------------------------- */
+
+.imgsize {
+  width: 350px;
+}
+
+
+.container {
+  display: flex;
+  padding-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://cdn4.vectorstock.com/i/1000x1000/14/68/travel-and-tourism-background-vector-2651468.jpg);
+}
+
+/* ------------------------ Popular place ----------------------------- */
+.popularplace-cont{
+  background-color: aqua;
+padding: 25px;
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.popularplace-cont h1{
+  text-align: center;
+}
+
+.cardr{
+  width: 250px;
+  height: 350px;
+  border: 5px solid rgb(245, 206, 135);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.card-tet{
+  position: absolute;
+  top: 82%;
+  padding: 15px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.59);
+  transition: all ease .5s;
+}
+.Explor{
+  margin-top: 30px;
+}
+.cardr:hover .card-tet{
+  top: 0%;
+}
+
+
+  .videocard-tet{
+    position: absolute;
+    top: 85%;
+    padding: 15px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.59);
+    transition: all ease .5s;
+}
+.cardr:hover .videocard-tet{
+  top: 0%;
+}
